@@ -3,9 +3,8 @@
 namespace DesignMyNight\Mongodb\Passport;
 
 use Jenssegers\Mongodb\Eloquent\Model;
-use Laravel\Passport\Contracts\Token as TokenContract;
 
-class Token extends Model implements TokenContract
+class Token extends Model
 {
     /**
      * The primary key for the model.
